@@ -1,0 +1,18 @@
+.Category__description {
+  margin: 40px 0 0 0px;
+  font-size: 13px;
+}
+
+.Category__title {
+  font-weight: bold;
+  margin: 0 0 20px 10px;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #3f546c;
+  margin: 0 0 20px 0;
+  letter-spacing: 2px;
+}
+
+.Category {
+  margin-bottom: 1em;
+}

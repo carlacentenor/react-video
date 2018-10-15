@@ -1,20 +1,26 @@
 import React, { Component } from 'react';
 import Media from './media.js'
-class Playlist extends Component {
-  render() {
-    const playlist = this.props.data.categories[0].playlist
-    return (
-      <div>
-        {
-          playlist.map((element, index) => {
-            return <Media key={index} title={element.title} author={element.author} image={element.cover} />
-          })
-        }
+import './playlist.css'
 
-      </div>
 
-    )
-  }
+const Playlist = (props) => {
+
+  return (
+    <div className="Playlist">
+     
+      {
+        props.playlist.map((element) => {
+          return <Media key={element.id}
+            {...element} 
+            handleClick ={props.handleOpenModal}
+            />
+        })
+      }
+
+    </div>
+
+  )
+
 }
 
 export default Playlist
