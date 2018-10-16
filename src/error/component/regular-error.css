@@ -1,0 +1,19 @@
+.Regularerror{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+.Regularerror__image{
+    width: 600px;
+   text-align: center;
+}
+
+.Regularerror__title{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+}
